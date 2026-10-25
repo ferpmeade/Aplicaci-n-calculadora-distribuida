@@ -1,0 +1,63 @@
+[00:00:37] [N3] Nodo iniciado, escuchando en el puerto 5003
+[00:00:37] [N3] Conectado: N1 (NODO). Conexiones activas: 1
+[00:00:37] [N3] Conectado: N2 (NODO). Conexiones activas: 2
+[00:00:43] [N3] Conectado: N4 (NODO). Conexiones activas: 3
+[00:08:41] [N3] Conectado: SUM-N3 (SERVIDOR). Conexiones activas: 4
+[00:08:47] [N3] Conectado: SUB-N3 (SERVIDOR). Conexiones activas: 5
+[00:08:53] [N3] Conectado: MUL-N3 (SERVIDOR). Conexiones activas: 6
+[00:08:58] [N3] Conectado: DIV-N3 (SERVIDOR). Conexiones activas: 7
+[00:12:43] [N3] Conectado: GUI-N3 (GUI). Conexiones activas: 8
+[00:13:31] [N3] RECIBIDO SUM_REQ id=41b5a09b de N1
+[00:13:31] [N3] DUPLICADO descartado id=41b5a09b (llego de N2)
+[00:13:31] [N3] DUPLICADO descartado id=41b5a09b (llego de N4)
+[00:13:31] [N3]    REENVIADO id=41b5a09b a: N2, N4, SUM-N3, SUB-N3, MUL-N3, DIV-N3, GUI-N3
+[00:13:31] [N3] RECIBIDO SUM_RES id=249d78dd de N1
+[00:13:31] [N3]    REENVIADO id=249d78dd a: N2, N4, SUM-N3, SUB-N3, MUL-N3, DIV-N3, GUI-N3
+[00:13:31] [N3] DUPLICADO descartado id=249d78dd (llego de N2)
+[00:13:31] [N3] DUPLICADO descartado id=249d78dd (llego de N4)
+[00:38:13] [N3] RECIBIDO SUM_REQ id=8b1b73ad de N1
+[00:38:13] [N3] DUPLICADO descartado id=8b1b73ad (llego de N2)
+[00:38:13] [N3] DUPLICADO descartado id=8b1b73ad (llego de N4)
+[00:38:13] [N3]    REENVIADO id=8b1b73ad a: N2, N4, SUM-N3, SUB-N3, MUL-N3, DIV-N3, GUI-N3
+[00:38:13] [N3] RECIBIDO SUM_RES id=ac5ab839 de N1
+[00:38:13] [N3]    REENVIADO id=ac5ab839 a: N2, N4, SUM-N3, SUB-N3, MUL-N3, DIV-N3, GUI-N3
+[00:38:13] [N3] DUPLICADO descartado id=ac5ab839 (llego de N2)
+[00:38:13] [N3] DUPLICADO descartado id=ac5ab839 (llego de N4)
+[00:38:48] [N3] RECIBIDO SUM_REQ id=db33f008 de N1
+[00:38:48] [N3] DUPLICADO descartado id=db33f008 (llego de N2)
+[00:38:48] [N3] DUPLICADO descartado id=db33f008 (llego de N4)
+[00:38:48] [N3]    REENVIADO id=db33f008 a: N2, N4, SUM-N3, SUB-N3, MUL-N3, DIV-N3, GUI-N3
+[00:38:48] [N3] RECIBIDO SUM_RES id=e1aad696 de N1
+[00:38:48] [N3] DUPLICADO descartado id=e1aad696 (llego de N2)
+[00:38:48] [N3] DUPLICADO descartado id=e1aad696 (llego de N4)
+[00:38:48] [N3]    REENVIADO id=e1aad696 a: N2, N4, SUM-N3, SUB-N3, MUL-N3, DIV-N3, GUI-N3
+[00:42:30] [N3] RECIBIDO SUB_REQ id=bb9cc62f de N2
+[00:42:30] [N3] DUPLICADO descartado id=bb9cc62f (llego de N4)
+[00:42:30] [N3] DUPLICADO descartado id=bb9cc62f (llego de N1)
+[00:42:30] [N3]    REENVIADO id=bb9cc62f a: N1, N4, SUM-N3, SUB-N3, MUL-N3, DIV-N3, GUI-N3
+[00:42:30] [N3] RECIBIDO SUB_RES id=dfac5ec9 de N2
+[00:42:30] [N3] DUPLICADO descartado id=dfac5ec9 (llego de N4)
+[00:42:30] [N3]    REENVIADO id=dfac5ec9 a: N1, N4, SUM-N3, SUB-N3, MUL-N3, DIV-N3, GUI-N3
+[00:42:30] [N3] DUPLICADO descartado id=dfac5ec9 (llego de N1)
+[00:43:27] [N3] RECIBIDO SUB_REQ id=3af3036f de N2
+[00:43:27] [N3] DUPLICADO descartado id=3af3036f (llego de N4)
+[00:43:27] [N3]    REENVIADO id=3af3036f a: N1, N4, SUM-N3, SUB-N3, MUL-N3, DIV-N3, GUI-N3
+[00:43:27] [N3] RECIBIDO SUB_RES id=c5b90ef4 de N2
+[00:43:27] [N3] DUPLICADO descartado id=3af3036f (llego de N1)
+[00:43:27] [N3] DUPLICADO descartado id=c5b90ef4 (llego de N4)
+[00:43:27] [N3]    REENVIADO id=c5b90ef4 a: N1, N4, SUM-N3, SUB-N3, MUL-N3, DIV-N3, GUI-N3
+[00:43:27] [N3] DUPLICADO descartado id=c5b90ef4 (llego de N1)
+[00:45:24] [N3] RECIBIDO MUL_REQ id=a8bee428 de GUI-N3
+[00:45:24] [N3]    REENVIADO id=a8bee428 a: N1, N2, N4, SUM-N3, SUB-N3, MUL-N3, DIV-N3
+[00:45:24] [N3] RECIBIDO MUL_RES id=b8de2bad de MUL-N3
+[00:45:24] [N3]    REENVIADO id=b8de2bad a: N1, N2, N4, SUM-N3, SUB-N3, DIV-N3, GUI-N3
+[00:45:24] [N3] DUPLICADO descartado id=b8de2bad (llego de N1)
+[00:46:51] [N3] RECIBIDO DIV_REQ id=fc5334ab de N4
+[00:46:51] [N3] DUPLICADO descartado id=fc5334ab (llego de N2)
+[00:46:51] [N3]    REENVIADO id=fc5334ab a: N1, N2, SUM-N3, SUB-N3, MUL-N3, DIV-N3, GUI-N3
+[00:46:51] [N3] DUPLICADO descartado id=fc5334ab (llego de N1)
+[00:46:51] [N3] RECIBIDO DIV_RES id=4c246c6b de N4
+[00:46:51] [N3] DUPLICADO descartado id=4c246c6b (llego de N2)
+[00:46:51] [N3]    REENVIADO id=4c246c6b a: N1, N2, SUM-N3, SUB-N3, MUL-N3, DIV-N3, GUI-N3
+[00:46:51] [N3] DUPLICADO descartado id=4c246c6b (llego de N1)
+[01:14:01] [N3] Desconectado: GUI-N3
